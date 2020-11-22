@@ -101,14 +101,14 @@
                   <br><br>
                   <br><br>
                 <div id="formular">
-                      <form action="seite2.php" method="post">
-						Vorname: <input type="text" name="vorname" />
-						Nachname: <input type="text" name="nachname" />
-						E-Mail: <input type="text" name="email" />
-						Firma: <input type="text" name="firma" />
-							<br><br>
-						<input type="submit" value="Absenden" />
-			          </form>
+                	<form action="seite2.php" method="post">
+				Vorname: <input type="text" name="vorname" />
+				Nachname: <input type="text" name="nachname" />
+				E-Mail: <input type="text" name="email" />
+				Firma: <input type="text" name="firma" />
+			 	 <br><br>
+				<input type="submit" value="Absenden" />
+			</form>
                 </div>
             </div>    
 
