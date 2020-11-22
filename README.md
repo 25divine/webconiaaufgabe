@@ -21,3 +21,6 @@ Für eine Einschreibung benötigen wir:
 
 Wir wünschen Dir viel Erfolg
 Dein Webconia-Team
+
+
+// Komischerweise sind einige Zeilen durch das Hochladen auf Github verrutscht, was ich versucht habe etwas anzupassen
