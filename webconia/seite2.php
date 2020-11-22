@@ -77,7 +77,7 @@
 </head>
     <body>
             <div class="kopf">
-				<a href="index.php"><img src="https://s3.eu-central-1.amazonaws.com/4scotty-prod/logos/3ApBNdkiACMxxAGuA/400_logo_jpg" height="80" width="350"></a>
+		<a href="index.php"><img src="https://s3.eu-central-1.amazonaws.com/4scotty-prod/logos/3ApBNdkiACMxxAGuA/400_logo_jpg" height="80" width="350"></a>
             </div>
 
             <div class="menue">
@@ -106,7 +106,7 @@
 		        $firma = $_POST["firma"];
 		
 		        if($vorname == "" or $nachname == "" or $email == "" or $firma == "") {
-					echo '<br><br><img src="triangle.jpg" width="50" height="50"/>';
+				echo '<br><br><img src="triangle.jpg" width="50" height="50"/>';
 			        echo nl2br ("\n \n \n Sie haben das Formular nicht vollständig ausgefüllt.\n\nBitte versuchen Sie es erneut.");
 		        } else {
 			        $eintrag = "INSERT INTO teilnehmer
@@ -118,8 +118,8 @@
 			        $eintragen = mysqli_query($db, $eintrag);
 		
 		        if($eintragen == true) {
-				        echo  nl2br ("\n \n Die Registrierung war erfolgreich. \n \n<font color=#01A9DB size='15pt'>Vielen Dank!</font> \n \n Sie erhalten in Kürze eine E-Mail von uns mit allen wichtigen Informationen.");
-			    } else {
+				echo  nl2br ("\n \n Die Registrierung war erfolgreich. \n \n<font color=#01A9DB size='15pt'>Vielen Dank!</font> \n \n Sie erhalten in Kürze eine E-Mail von uns mit allen wichtigen Informationen.");
+			} else {
 			        echo "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut.";
 			        }
 		        }
@@ -130,8 +130,8 @@
         
             <div class="fuss">
                 <span style="color:#FFFFFF"><br><br>webconia GmbH <br> Gänsemarkt 31, 20354 Hamburg</span>
-					<br><br>
-				<span style="color:#2E2E2E">
+		 <br><br>
+		<span style="color:#2E2E2E">
                 	Bilder: <br> 
                 	https://unsplash.com/photos/j22K61_1peg <br> 
                 	https://pixabay.com/vectors/triangle-warning-blue-36068/ <br>
